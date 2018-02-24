@@ -451,7 +451,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-featured-section,
-#fh5co-intro-section,
+/*#fh5co-intro-section,*/
 #fh5co-services-section,
 #fh5co-blog-section,
 #fh5co-client-section,
@@ -463,7 +463,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 @media screen and (max-width: 768px) {
   #fh5co-featured-section,
-  #fh5co-intro-section,
+  /*#fh5co-intro-section,*/
   #fh5co-services-section,
   #fh5co-blog-section,
   #fh5co-client-section,
@@ -486,7 +486,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-intro-section {
-  padding-top: 6em;
+ padding-top: 3em;
 }
 #fh5co-intro-section h2 {
   font-weight: 400;
@@ -542,7 +542,8 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .featured-grid .desc {
   position: absolute;
-  bottom: -5px;
+  /*bottom: -5px;*/
+    top: 5px;
   left: 0;
   right: 0;
   padding: 30px;
