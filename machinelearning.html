@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Machine Learning</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta charset="utf-8">
+    <meta name="author" content="Harry Boo">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="assets/img/favicon.png">
+    <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/img/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/img/apple-touch-icon-114x114.png">
+
+    <!-- Load Core CSS 
+        =====================================-->
+    <link rel="stylesheet" href="assets/css/core/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/core/animate.min.css">
+    <link rel="stylesheet" href="assets/css/demo.css">
+
+    <!-- Load Main CSS 
+        =====================================-->
+    <link rel="stylesheet" href="assets/css/main/main.css">
+    <link rel="stylesheet" href="assets/css/main/setting.css">
+    <link rel="stylesheet" href="assets/css/main/hover.css">
+
+    <!-- Load Magnific Popup CSS 
+        =====================================-->
+    <link rel="stylesheet" href="assets/css/magnific/magic.min.css">
+    <link rel="stylesheet" href="assets/css/magnific/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/magnific/magnific-popup-zoom-gallery.css">
+
+    <!-- Load OWL Carousel CSS 
+        =====================================-->
+    <link rel="stylesheet" href="assets/css/owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="assets/css/owl-carousel/owl.theme.css">
+    <link rel="stylesheet" href="assets/css/owl-carousel/owl.transitions.css">
+
+    <!-- Load Color CSS - Please uncomment to apply the color.
+        =====================================      
+        <link rel="stylesheet" href="assets/css/color/blue.css">
+        <link rel="stylesheet" href="assets/css/color/brown.css">
+        <link rel="stylesheet" href="assets/css/color/cyan.css">
+        <link rel="stylesheet" href="assets/css/color/dark.css">
+        <link rel="stylesheet" href="assets/css/color/green.css">
+        <link rel="stylesheet" href="assets/css/color/orange.css">
+        <link rel="stylesheet" href="assets/css/color/purple.css">
+        <link rel="stylesheet" href="assets/css/color/pink.css">
+        <link rel="stylesheet" href="assets/css/color/red.css">
+        <link rel="stylesheet" href="assets/css/color/yellow.css">-->
+    <link rel="stylesheet" href="assets/css/color/pasific.css">
+
+    <!-- Load Fontbase Icons - Please Uncomment to use linea icons
+        =====================================       
+        <link rel="stylesheet" href="assets/css/icon/linea-arrows-10.css">
+        <link rel="stylesheet" href="assets/css/icon/linea-basic-10.css">
+        <link rel="stylesheet" href="assets/css/icon/linea-basic-elaboration-10.css">
+        <link rel="stylesheet" href="assets/css/icon/linea-ecommerce-10.css">
+        <link rel="stylesheet" href="assets/css/icon/linea-music-10.css">
+        <link rel="stylesheet" href="assets/css/icon/linea-software-10.css">
+        <link rel="stylesheet" href="assets/css/icon/linea-weather-10.css">-->
+    <link rel="stylesheet" href="assets/css/icon/font-awesome.css">
+    <link rel="stylesheet" href="assets/css/icon/et-line-font.css">
+
+    <!-- Load JS
+        HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries
+        WARNING: Respond.js doesn't work if you view the page via file://
+        =====================================-->
+
+    <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+</head>
+
+<body id="topPage" data-spy="scroll" data-target=".navbar" data-offset="100">
+
+
+    <!-- Page Loader
+        ===================================== -->
+    <div id="pageloader">
+        <div class="loader-item">
+            <img src="assets/img/other/puff.svg" alt="page loader">
+        </div>
+    </div>
+
+    <a href="#page-top" class="go-to-top">
+        <i class="fa fa-long-arrow-up"></i>
+    </a>
+
+
+    <!-- Navigation Area
+        ===================================== -->
+
+    <nav class="navbar navbar-pasific navbar-mp navbar-standart megamenu navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top" style="font-family: sans-serif; font-weight: 800;">
+                    HACKFEST
+                </a>
+            </div>
+
+            <div class="navbar-collapse collapse navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown megamenu-fw has-dropdown-menu">
+                        <a href="index.html" class="dropdown-toggle color-light">Home</a>
+                    </li>
+
+                    <li class="dropdown megamenu-fw">
+                        <a href="index.html#workshops" class="dropdown-toggle color-light">Workshops</a>
+
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="index.html#team" class="dropdown-toggle color-light">Team</a>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="" class="dropdown-toggle color-light">Register</a>
+
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="about.html" class="dropdown-toggle color-light">About Us</a>
+
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="contact.html" class="dropdown-toggle color-light">Contact</a>
+
+                    </li>
+
+
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Search Modal Dialog Box
+        ===================================== -->
+    <div id="searchModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header bg-gray">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h5 class="modal-title text-center">
+                        <i class="fa fa-search fa-fw"></i> Search here</h5>
+                </div>
+                <div class="modal-body">
+                    <form action="#" class="inline-form">
+                        <input type="text" class="modal-search-input" autofocus>
+                    </form>
+                </div>
+                <div class="modal-footer bg-gray">
+                    <span class="text-center">
+                        <a href="#" class="color-dark">Advanced Search</a>
+                    </span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- Subheader Area
+        ===================================== -->
+    <header class="parallax-window-3 mt70">
+
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-12 text-center pt30">
+                    <h1 class="color-light mt40 font-pacifico text-capitalize">
+                        Internet Of Things
+                    </h1>
+
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+
+            <div class="blog-three-mini">
+                <br>
+                <br>
+                <br>
+                <h1 class="mt25 mb25">MACHINE LEARNING</h1>
+                <img src="./image.png" alt="MACHINE LEARNING" width="500px" height="400px">
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Chart Styles
+        ===================================== -->
+    <section id="shortcodeChart">
+        <div class="container pt90 pb50 bb-dashed-1">
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="nav nav-pills-vertical pull-left mr30">
+                        <li class="active">
+                            <a data-toggle="tab" href="#verticalHome">Home</a>
+                        </li>
+                        <li>
+                            <a data-toggle="tab" href="#vertical1">Menu 1</a>
+                        </li>
+                        <li>
+                            <a data-toggle="tab" href="#vertical2">Menu 2</a>
+                        </li>
+                        <li>
+                            <a data-toggle="tab" href="#vertical3">Menu 3</a>
+                        </li>
+                        <li>
+                            <a data-toggle="tab" href="#vertical4">Menu 4</a>
+                        </li>
+                        <li>
+                            <a data-toggle="tab" href="#vertical5">Menu 5</a>
+                        </li>
+                    </ul>
+
+                    <div class="tab-content">
+                        <div id="verticalHome" class="tab-pane fade in active">
+                            <h5>PILL VERTICAL LEFT POSITION</h5>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, libero, temporibus quam eaque numquam debitis excepturi
+                                assumenda necessitatibus dolore dolorum vero enim distinctio ipsa. Quod, dolorum, quidem
+                                eum quisquam facilis nam molestias et voluptas omnis quibusdam dignissimos illum ullam. Possimus
+                                consectetur veniam fugit libero pariatur illum eos tempora repudiandae dolorum non. Adipisci,
+                                porro, natus hic expedita sed eius provident incidunt fugit autem alias quod ratione et reprehenderit
+                                architecto qui ea.
+                                <br>
+                                <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, cumque, distinctio, in
+                                assumenda voluptates iste autem fugiat recusandae quas corporis laboriosam maxime vero. Harum,
+                                similique, doloribus, voluptate aliquam unde quas at consequuntur rem iste eum iusto placeat
+                                quae inventore quibusdam explicabo itaque eaque dolor quam omnis assumenda. Hic, nesciunt
+                                vel debitis quas reiciendis. Debitis, natus, voluptas, quaerat, nostrum tempora aliquid nesciunt
+                                sapiente commodi excepturi fugiat neque facilis perferendis quam porro!
+                            </p>
+                        </div>
+                        <div id="vertical1" class="tab-pane fade">
+                            <h5>Menu 1</h5>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, libero, temporibus quam eaque numquam debitis excepturi
+                                assumenda necessitatibus dolore dolorum vero enim distinctio ipsa. Quod, dolorum, quidem
+                                eum quisquam facilis nam molestias et voluptas omnis quibusdam dignissimos illum ullam. Possimus
+                                consectetur veniam fugit libero pariatur illum eos tempora repudiandae dolorum non. Adipisci,
+                                porro, natus hic expedita sed eius provident incidunt fugit autem alias quod ratione et reprehenderit
+                                architecto qui ea.
+                                <br>
+                                <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, cumque, distinctio, in
+                                assumenda voluptates iste autem fugiat recusandae quas corporis laboriosam maxime vero. Harum,
+                                similique, doloribus, voluptate aliquam unde quas at consequuntur rem iste eum iusto placeat
+                                quae inventore quibusdam explicabo itaque eaque dolor quam omnis assumenda. Hic, nesciunt
+                                vel debitis quas reiciendis. Debitis, natus, voluptas, quaerat, nostrum tempora aliquid nesciunt
+                                sapiente commodi excepturi fugiat neque facilis perferendis quam porro!
+                            </p>
+                        </div>
+                        <div id="vertical2" class="tab-pane fade">
+                            <h5>Menu 2</h5>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, libero, temporibus quam eaque numquam debitis excepturi
+                                assumenda necessitatibus dolore dolorum vero enim distinctio ipsa. Quod, dolorum, quidem
+                                eum quisquam facilis nam molestias et voluptas omnis quibusdam dignissimos illum ullam. Possimus
+                                consectetur veniam fugit libero pariatur illum eos tempora repudiandae dolorum non. Adipisci,
+                                porro, natus hic expedita sed eius provident incidunt fugit autem alias quod ratione et reprehenderit
+                                architecto qui ea.
+                                <br>
+                                <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, cumque, distinctio, in
+                                assumenda voluptates iste autem fugiat recusandae quas corporis laboriosam maxime vero. Harum,
+                                similique, doloribus, voluptate aliquam unde quas at consequuntur rem iste eum iusto placeat
+                                quae inventore quibusdam explicabo itaque eaque dolor quam omnis assumenda. Hic, nesciunt
+                                vel debitis quas reiciendis. Debitis, natus, voluptas, quaerat, nostrum tempora aliquid nesciunt
+                                sapiente commodi excepturi fugiat neque facilis perferendis quam porro!
+                            </p>
+                        </div>
+                        <div id="vertical3" class="tab-pane fade">
+                            <h5>Menu 3</h5>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, libero, temporibus quam eaque numquam debitis excepturi
+                                assumenda necessitatibus dolore dolorum vero enim distinctio ipsa. Quod, dolorum, quidem
+                                eum quisquam facilis nam molestias et voluptas omnis quibusdam dignissimos illum ullam. Possimus
+                                consectetur veniam fugit libero pariatur illum eos tempora repudiandae dolorum non. Adipisci,
+                                porro, natus hic expedita sed eius provident incidunt fugit autem alias quod ratione et reprehenderit
+                                architecto qui ea.
+                                <br>
+                                <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, cumque, distinctio, in
+                                assumenda voluptates iste autem fugiat recusandae quas corporis laboriosam maxime vero. Harum,
+                                similique, doloribus, voluptate aliquam unde quas at consequuntur rem iste eum iusto placeat
+                                quae inventore quibusdam explicabo itaque eaque dolor quam omnis assumenda. Hic, nesciunt
+                                vel debitis quas reiciendis. Debitis, natus, voluptas, quaerat, nostrum tempora aliquid nesciunt
+                                sapiente commodi excepturi fugiat neque facilis perferendis quam porro!
+                            </p>
+                        </div>
+                        <div id="vertical4" class="tab-pane fade">
+                            <h5>Menu 4</h5>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, libero, temporibus quam eaque numquam debitis excepturi
+                                assumenda necessitatibus dolore dolorum vero enim distinctio ipsa. Quod, dolorum, quidem
+                                eum quisquam facilis nam molestias et voluptas omnis quibusdam dignissimos illum ullam. Possimus
+                                consectetur veniam fugit libero pariatur illum eos tempora repudiandae dolorum non. Adipisci,
+                                porro, natus hic expedita sed eius provident incidunt fugit autem alias quod ratione et reprehenderit
+                                architecto qui ea.
+                                <br>
+                                <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, cumque, distinctio, in
+                                assumenda voluptates iste autem fugiat recusandae quas corporis laboriosam maxime vero. Harum,
+                                similique, doloribus, voluptate aliquam unde quas at consequuntur rem iste eum iusto placeat
+                                quae inventore quibusdam explicabo itaque eaque dolor quam omnis assumenda. Hic, nesciunt
+                                vel debitis quas reiciendis. Debitis, natus, voluptas, quaerat, nostrum tempora aliquid nesciunt
+                                sapiente commodi excepturi fugiat neque facilis perferendis quam porro!
+                            </p>
+                        </div>
+                        <div id="vertical5" class="tab-pane fade">
+                            <h5>Menu 5</h5>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, libero, temporibus quam eaque numquam debitis excepturi
+                                assumenda necessitatibus dolore dolorum vero enim distinctio ipsa. Quod, dolorum, quidem
+                                eum quisquam facilis nam molestias et voluptas omnis quibusdam dignissimos illum ullam. Possimus
+                                consectetur veniam fugit libero pariatur illum eos tempora repudiandae dolorum non. Adipisci,
+                                porro, natus hic expedita sed eius provident incidunt fugit autem alias quod ratione et reprehenderit
+                                architecto qui ea.
+                                <br>
+                                <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, cumque, distinctio, in
+                                assumenda voluptates iste autem fugiat recusandae quas corporis laboriosam maxime vero. Harum,
+                                similique, doloribus, voluptate aliquam unde quas at consequuntur rem iste eum iusto placeat
+                                quae inventore quibusdam explicabo itaque eaque dolor quam omnis assumenda. Hic, nesciunt
+                                vel debitis quas reiciendis. Debitis, natus, voluptas, quaerat, nostrum tempora aliquid nesciunt
+                                sapiente commodi excepturi fugiat neque facilis perferendis quam porro!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+    </section>
+
+    <div id="footer" class="footer-two pt50">
+        <div class="container-fluid pt20">
+            <div class="container">
+                <div class="row">
+
+                    <!-- copyright start -->
+                    <div class="col-md-12 col-sm-12 text-center" style="color: red; font-size: 20px;font-family: sans-serif;">
+                        <b>
+                            <p style="color: red; font-size: 20px; ">Made with
+                                <i class="icon-heart" style="color:red;"></i> by
+                                <a href="http://zairza.in" target="_blank">ZAIRZA</a>
+                            </p>
+                            <p style="text-transform: capitalize;text-align: center;color: red; font-size: 20px; ">COLLEGE OF ENGINEERING AND TECHNOLOGY
+                                <br>BHUBANESWAR</p>
+                        </b>
+                    </div>
+                    <!-- copyright end -->
+
+                </div>
+                <!-- row end -->
+            </div>
+            <!-- container end -->
+        </div>
+        <!-- container-fluid end -->
+    </div>
+
+
+
+
+    <!-- JQuery Core
+        =====================================-->
+    <script src="assets/js/core/jquery.min.js"></script>
+    <script src="assets/js/core/bootstrap.min.js"></script>
+
+    <!-- JQuery Main
+        =====================================-->
+    <script src="assets/js/main/jquery.appear.js"></script>
+    <script src="assets/js/main/isotope.pkgd.min.js"></script>
+    <script src="assets/js/main/parallax.min.js"></script>
+    <script src="assets/js/main/jquery.countTo.js"></script>
+    <script src="assets/js/main/owl.carousel.min.js"></script>
+    <script src="assets/js/main/jquery.sticky.js"></script>
+    <script src="assets/js/main/ion.rangeSlider.min.js"></script>
+    <script src="assets/js/main/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/main/main.js"></script>
+
+</body>
+
+</html>
