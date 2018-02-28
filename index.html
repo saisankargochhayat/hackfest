@@ -1,46 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>HACKFEST</title>
-        <meta name="description" content="">
-        <meta name="keywords" content="">
-        <meta charset="utf-8">
-        <meta name="author" content="Harry Boo">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
-        
-        <!-- Favicons -->
-        <link rel="shortcut icon" href="assets/img/favicon.png">
-        <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="assets/img/apple-touch-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="assets/img/apple-touch-icon-114x114.png">
-        
-        <!-- Load Core CSS 
+
+<head>
+    <title>HACKFEST</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta charset="utf-8">
+    <meta name="author" content="Harry Boo">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="assets/img/favicon.png">
+    <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/img/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/img/apple-touch-icon-114x114.png">
+
+    <!-- Load Core CSS 
         =====================================-->
-        <link rel="stylesheet" href="assets/css/core/bootstrap.min.css">
-        <link rel="stylesheet" href="assets/css/core/animate.min.css">
-        
-        <!-- Load Main CSS 
+    <link rel="stylesheet" href="assets/css/core/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/core/animate.min.css">
+
+    <!-- Load Main CSS 
         =====================================-->
-        <link rel="stylesheet" href="assets/css/main/main.css">
-        <link rel="stylesheet" href="assets/css/main/setting.css">
-        <link rel="stylesheet" href="assets/css/main/hover.css">
-        
-        <link rel="stylesheet" href="assets/css/typed/typed.css">
-        
-        <!-- Load Magnific Popup CSS 
+    <link rel="stylesheet" href="assets/css/main/main.css">
+    <link rel="stylesheet" href="assets/css/main/setting.css">
+    <link rel="stylesheet" href="assets/css/main/hover.css">
+
+    <link rel="stylesheet" href="assets/css/typed/typed.css">
+
+    <!-- Load Magnific Popup CSS 
         =====================================-->
-        <link rel="stylesheet" href="assets/css/magnific/magic.min.css">        
-        <link rel="stylesheet" href="assets/css/magnific/magnific-popup.css">              
-        <link rel="stylesheet" href="assets/css/magnific/magnific-popup-zoom-gallery.css">
-        
-        <!-- Load OWL Carousel CSS 
+    <link rel="stylesheet" href="assets/css/magnific/magic.min.css">
+    <link rel="stylesheet" href="assets/css/magnific/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/magnific/magnific-popup-zoom-gallery.css">
+
+    <!-- Load OWL Carousel CSS 
         =====================================-->
-        <link rel="stylesheet" href="assets/css/owl-carousel/owl.carousel.css">
-        <link rel="stylesheet" href="assets/css/owl-carousel/owl.theme.css">
-        <link rel="stylesheet" href="assets/css/owl-carousel/owl.transitions.css">
-        
-        <!-- Load Color CSS - Please uncomment to apply the color.
+    <link rel="stylesheet" href="assets/css/owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="assets/css/owl-carousel/owl.theme.css">
+    <link rel="stylesheet" href="assets/css/owl-carousel/owl.transitions.css">
+
+    <!-- Load Color CSS - Please uncomment to apply the color.
         =====================================      
         <link rel="stylesheet" href="assets/css/color/blue.css">
         <link rel="stylesheet" href="assets/css/color/brown.css">
@@ -52,9 +53,9 @@
         <link rel="stylesheet" href="assets/css/color/pink.css">
         <link rel="stylesheet" href="assets/css/color/red.css">
         <link rel="stylesheet" href="assets/css/color/yellow.css">-->
-        <link rel="stylesheet" href="assets/css/color/pasific.css">
-        
-        <!-- Load Fontbase Icons - Please Uncomment to use linea icons
+    <link rel="stylesheet" href="assets/css/color/pasific.css">
+
+    <!-- Load Fontbase Icons - Please Uncomment to use linea icons
         =====================================       
         <link rel="stylesheet" href="assets/css/icon/linea-arrows-10.css">
         <link rel="stylesheet" href="assets/css/icon/linea-basic-10.css">
@@ -62,42 +63,43 @@
         <link rel="stylesheet" href="assets/css/icon/linea-ecommerce-10.css">
         <link rel="stylesheet" href="assets/css/icon/linea-music-10.css">
         <link rel="stylesheet" href="assets/css/icon/linea-software-10.css">
-        <link rel="stylesheet" href="assets/css/icon/linea-weather-10.css">--> 
-        <link rel="stylesheet" href="assets/css/icon/font-awesome.css">
-        <link rel="stylesheet" href="assets/css/icon/et-line-font.css">
-        
-        
-        <!-- Load JS
+        <link rel="stylesheet" href="assets/css/icon/linea-weather-10.css">-->
+    <link rel="stylesheet" href="assets/css/icon/font-awesome.css">
+    <link rel="stylesheet" href="assets/css/icon/et-line-font.css">
+
+
+    <!-- Load JS
         HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries
         WARNING: Respond.js doesn't work if you view the page via file://
         =====================================-->
 
-        <!--[if lt IE 9]>
+    <!--[if lt IE 9]>
           <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
           <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
-        <style>
-                .button-primary a{
-                    color : white;
-                }
-            </style>
-        
-    </head>
-    <body  id="page-top" data-spy="scroll" data-target=".navbar" data-offset="100">
-        
-        <!-- Page Loader-->
-		<div id="pageloader">
-			<div class="loader-item">
-                <img src="assets/img/other/puff.svg" alt="page loader">
-            </div>
-		</div>
-        
-        <a href="#page-top" class="go-to-top">
-            <i class="fa fa-long-arrow-up"></i>
-        </a>
-        
-        
-        <!-- Navigation Area
+    <style>
+        .button-primary a {
+            color: white;
+        }
+    </style>
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar" data-offset="100">
+
+    <!-- Page Loader-->
+    <div id="pageloader">
+        <div class="loader-item">
+            <img src="assets/img/other/puff.svg" alt="page loader">
+        </div>
+    </div>
+
+    <a href="#page-top" class="go-to-top">
+        <i class="fa fa-long-arrow-up"></i>
+    </a>
+
+
+    <!-- Navigation Area
         ===================================== -->
     <nav class="navbar navbar-pasific navbar-mp navbar-standart megamenu navbar-fixed-top">
         <div class="container">
@@ -148,70 +150,82 @@
         </div>
     </nav>
 
-        
-        
-        <!-- Search Modal Dialog Box
-        ===================================== -->
-        <div id="searchModal" class="modal fade" role="dialog">
-            <div class="modal-dialog">
 
-                <!-- Modal content-->
-                <div class="modal-content">
-                    <div class="modal-header bg-gray">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h5 class="modal-title text-center"><i class="fa fa-search fa-fw"></i> Search here</h5>
-                    </div>
-                    <div class="modal-body">                        
-                        <form action="#" class="inline-form">
-                            <input type="text" class="modal-search-input" autofocus>
-                        </form>
-                    </div>
-                    <div class="modal-footer bg-gray">
-                        <span class="text-center"><a href="#" class="color-dark">Advanced Search</a></span>
-                    </div>
+
+    <!-- Search Modal Dialog Box
+        ===================================== -->
+    <div id="searchModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header bg-gray">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h5 class="modal-title text-center">
+                        <i class="fa fa-search fa-fw"></i> Search here</h5>
                 </div>
-
+                <div class="modal-body">
+                    <form action="#" class="inline-form">
+                        <input type="text" class="modal-search-input" autofocus>
+                    </form>
+                </div>
+                <div class="modal-footer bg-gray">
+                    <span class="text-center">
+                        <a href="#" class="color-dark">Advanced Search</a>
+                    </span>
+                </div>
             </div>
-        </div>                
-        
-        
-        <!-- Intro Area
+
+        </div>
+    </div>
+
+
+    <!-- Intro Area
         ===================================== -->
-        <header class="intro pt100 pb100 parallax-window" data-parallax="scroll" data-speed="0.5" data-image-src="images/slides/ar_h_c.jpg" >
-            <div class="intro-body">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h1 class="brand-heading text-capitalize color-light">
-                                 <div class="brand-heading-typed-container">
-                                    <div id="typed-strings">
-                                        <p>Welcome to <span class="color-pasific">Hackfest</span></p>
-                                        <p>Designed by <span class="color-pasific">Zairza</span></p>
-                                        
-                                    </div>
-                                    <span id="typed" style="white-space:pre;"></span>
+    <header class="intro pt100 pb100 parallax-window" data-parallax="scroll" data-speed="0.5" data-image-src="images/slides/ar_h_c.jpg">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="brand-heading text-capitalize color-light">
+                            <div class="brand-heading-typed-container">
+                                <div id="typed-strings">
+                                    <p>Welcome to
+                                        <span class="color-pasific">Hackfest</span>
+                                    </p>
+                                    <p>Designed by
+                                        <span class="color-pasific">Zairza</span>
+                                    </p>
+
                                 </div>
-                            </h1>
-                           <!-- <a class="button button-pasific button-lg hover-ripple-out animated" data-animation="fadeInUp" data-animation-delay="17000">Start a Project</a>-->
-                        </div>
+                                <span id="typed" style="white-space:pre;"></span>
+                            </div>
+                        </h1>
+                        <a class="button button-pasific button-lg hover-ripple-out animated" data-animation="fadeInUp" data-animation-delay="17000">Start a Project</a>
                     </div>
                 </div>
-                
-                <div class="intro-direction">
-                    <a href="#welcome">
-                        <div class="mouse-icon"><div class="wheel"></div></div>
-                    </a>
-                </div>
-                
             </div>
-            
-        </header>
 
-   
+            <div class="intro-direction">
+                <a href="#welcome">
+                    <div class="mouse-icon">
+                        <div class="wheel"></div>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+
+    </header>
+
+
     <div class="pt75 pb75">
         <div class="container" id="workshops">
             <div class="row">
-                <h3 style="text-align: center;">WORKSHOPS</h3><hr/><br/><br/>
+                <h3 style="text-align: center;">WORKSHOPS</h3>
+                <hr/>
+                <br/>
+                <br/>
 
                 <div class="col-md-6 col-sm-6 col-xs-6 mb25">
                     <img src="images/img2_cropped3.jpeg" alt="gallery" class="img-responsive" height="100px" style="">
@@ -272,16 +286,18 @@
                 <div class="col-md-6 col-sm-6 col-xs-6 mb25">
                     <img src="images/web-development-skills_cropped.jpeg" alt="gallery" class="img-responsive">
                     <h5 class="font-montserrat mt10">
-                        Website Development
-                        <p>Web Designing is the planning and creation of websites. This includes the information architecture,
-                            user interface, site structure, navigation, layout, colors, fonts, and imagery. All of these
-                            are combined with the principles of design to create a website that meets the goals of the owner
-                            and designer.</p>
+                        Technical Writing Workshop
+                        <p>Technical writing is any written form of writing or drafting technical communication used in a variety
+                            of technical and occupational fields, such as computer hardware and software, engineering, chemistry,
+                            aeronautics, robotics, finance, medical, consumer electronics, and biotechnology. </p>
                         <br>
                         <br>
-                        <div style="display:inline-block;margin-left:40%;">
+                        <div style="display:inline-block;margin-left:25%;">
                             <button class="button button-sm button-circle button-primary">
                                 <a href="" target="_blank">Register</a>
+                            </button>
+                            <button class="button button-sm button-circle button-info">
+                                <a href="./techwriting.html">Details</a>
                             </button>
                         </div>
                     </h5>
@@ -340,17 +356,17 @@
 
             <div class="row">
 
-                <div class="col-md-3 col-sm-6 col-xs-12 mt30 hover-wobble-vertical">
+                <div class="col-md-4 col-sm-6 col-xs-12 mt30 hover-wobble-vertical">
                     <div class="team team-one">
-                        <h5>Michael Doe
+                        <h5>Rishav Agarwal
                             <small class="color-pasific">Co-Founder &amp; CEO</small>
                         </h5>
-                        <img src="assets/img/team/14-1.jpg" alt="" class="img-responsive">
+                        <img src="images/team/rishav_bhai.jpg" alt="Rishav Agarwal" class="img-responsive">
                         <div class="team-social">
                             <a href="#">
                                 <i class="fa fa-twitter"></i>
                             </a>
-                            <a href="#">
+                            <a href="https://www.facebook.com/rishav.agarwal.5">
                                 <i class="fa fa-facebook"></i>
                             </a>
                             <a href="#">
@@ -366,17 +382,17 @@
                     </div>
                 </div>
 
-                <div class="col-md-3 col-sm-6 col-xs-12 hover-wobble-vertical mt30">
+                <div class="col-md-4 col-sm-6 col-xs-12 hover-wobble-vertical mt30">
                     <div class="team team-one">
-                        <h5>John Doe
+                        <h5>Saisankar Gochhayat
                             <small class="color-pasific">Web Designer</small>
                         </h5>
-                        <img src="assets/img/team/9-1.jpg" alt="" class="img-responsive">
+                        <img src="images/team/sai_bhai.jpg" alt="Saisankar Gochhayat" class="img-responsive">
                         <div class="team-social">
                             <a href="#">
                                 <i class="fa fa-twitter"></i>
                             </a>
-                            <a href="#">
+                            <a href="https://www.facebook.com/saisankargochhayat">
                                 <i class="fa fa-facebook"></i>
                             </a>
                             <a href="#">
@@ -392,17 +408,17 @@
                     </div>
                 </div>
 
-                <div class="col-md-3 col-sm-6 col-xs-12 hover-wobble-vertical mt30">
+                <div class="col-md-4 col-sm-6 col-xs-12 hover-wobble-vertical mt30">
                     <div class="team team-one">
-                        <h5>Harry Doe
+                        <h5>Sanjay Reddy
                             <small class="color-pasific">App Designer</small>
                         </h5>
-                        <img src="assets/img/team/7-1.jpg" alt="" class="img-responsive">
+                        <img src="images/team/reddy_bhai.jpg" alt="Sanjay Reddy" class="img-responsive">
                         <div class="team-social">
                             <a href="#">
                                 <i class="fa fa-twitter"></i>
                             </a>
-                            <a href="#">
+                            <a href="https://www.facebook.com/vamsyksr">
                                 <i class="fa fa-facebook"></i>
                             </a>
                             <a href="#">
@@ -418,17 +434,17 @@
                     </div>
                 </div>
 
-                <div class="col-md-3 col-sm-6 col-xs-12 hover-wobble-vertical mt30">
+                <div class="col-md-4 col-sm-6 col-xs-12 hover-wobble-vertical mt30">
                     <div class="team team-one">
-                        <h5>Terry Doe
+                        <h5>Kaustuv Bose
                             <small class="color-pasific">iOS Developer</small>
                         </h5>
-                        <img src="assets/img/team/10-1.jpg" alt="" class="img-responsive">
+                        <img src="images/team/kaustuv_bhai.jpg" alt="Kaustuv Bose" class="img-responsive">
                         <div class="team-social">
                             <a href="#">
                                 <i class="fa fa-twitter"></i>
                             </a>
-                            <a href="#">
+                            <a href="https://www.facebook.com/kaustuv96">
                                 <i class="fa fa-facebook"></i>
                             </a>
                             <a href="#">
@@ -444,17 +460,17 @@
                     </div>
                 </div>
 
-                <div class="col-md-3 col-sm-6 col-xs-12 hover-wobble-vertical mt30">
+                <div class="col-md-4 col-sm-6 col-xs-12 hover-wobble-vertical mt30">
                     <div class="team team-one">
-                        <h5>Terry Doe
+                        <h5>Asutosh Hota
                             <small class="color-pasific">iOS Developer</small>
                         </h5>
-                        <img src="assets/img/team/11-1.jpg" alt="" class="img-responsive">
+                        <img src="images/team/asutosh_bhai.jpg" alt="Asutosh Hota" class="img-responsive">
                         <div class="team-social">
                             <a href="#">
                                 <i class="fa fa-twitter"></i>
                             </a>
-                            <a href="#">
+                            <a href="https://www.facebook.com/asutosh.hota">
                                 <i class="fa fa-facebook"></i>
                             </a>
                             <a href="#">
@@ -470,17 +486,17 @@
                     </div>
                 </div>
 
-                <div class="col-md-3 col-sm-6 col-xs-12 hover-wobble-vertical mt30">
+                <div class="col-md-4 col-sm-6 col-xs-12 hover-wobble-vertical mt30">
                     <div class="team team-one">
-                        <h5>Terry Doe
+                        <h5>Sandeep Mahapatra
                             <small class="color-pasific">iOS Developer</small>
                         </h5>
-                        <img src="assets/img/team/12-1.jpg" alt="" class="img-responsive">
+                        <img src="images/team/sandy_bhai.jpg" alt="Sandeep Mahapatra" class="img-responsive">
                         <div class="team-social">
                             <a href="#">
                                 <i class="fa fa-twitter"></i>
                             </a>
-                            <a href="#">
+                            <a href="https://www.facebook.com/sandeep97">
                                 <i class="fa fa-facebook"></i>
                             </a>
                             <a href="#">
@@ -496,17 +512,17 @@
                     </div>
                 </div>
 
-                <div class="col-md-3 col-sm-6 col-xs-12 hover-wobble-vertical mt30">
+                <div class="col-md-4 col-sm-6 col-xs-12 hover-wobble-vertical mt30">
                     <div class="team team-one">
-                        <h5>Terry Doe
+                        <h5> Sohini RoyChoudhury
                             <small class="color-pasific">iOS Developer</small>
                         </h5>
-                        <img src="assets/img/team/13-1.jpg" alt="" class="img-responsive">
+                        <img src="images/team/sohini_didi.jpg" alt=" Sohini RoyChoudhury" class="img-responsive">
                         <div class="team-social">
                             <a href="#">
                                 <i class="fa fa-twitter"></i>
                             </a>
-                            <a href="#">
+                            <a href="https://www.facebook.com/sohini.rc.9">
                                 <i class="fa fa-facebook"></i>
                             </a>
                             <a href="#">
@@ -522,17 +538,43 @@
                     </div>
                 </div>
 
-                <div class="col-md-3 col-sm-6 col-xs-12 hover-wobble-vertical mt30">
+                <div class="col-md-4 col-sm-6 col-xs-12 hover-wobble-vertical mt30">
                     <div class="team team-one">
-                        <h5>Terry Doe
+                        <h5>Mohit Nayak
                             <small class="color-pasific">iOS Developer</small>
                         </h5>
-                        <img src="assets/img/team/14-1.jpg" alt="" class="img-responsive">
+                        <img src="images/team/mohit_bhai.jpg" alt="Mohit Nayak" class="img-responsive">
                         <div class="team-social">
                             <a href="#">
                                 <i class="fa fa-twitter"></i>
                             </a>
+                            <a href="https://www.facebook.com/mohit.nayak.737">
+                                <i class="fa fa-facebook"></i>
+                            </a>
                             <a href="#">
+                                <i class="fa fa-linkedin"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa fa-github"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa fa-pinterest"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-xs-12 hover-wobble-vertical mt30">
+                    <div class="team team-one">
+                        <h5>Alice Anjali
+                            <small class="color-pasific">iOS Developer</small>
+                        </h5>
+                        <img src="images/team/alice_didi.jpg" alt="Alice Anjali" class="img-responsive">
+                        <div class="team-social">
+                            <a href="#">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                            <a href="https://www.facebook.com/alice.anjali.7">
                                 <i class="fa fa-facebook"></i>
                             </a>
                             <a href="#">
@@ -567,10 +609,14 @@
             <div class="container">
                 <div class="row">
                     <div class="fchange text-center" style="font-weight: 600; font-size: 25px;">
-                        <p>Made with <i class= "icon-heart"></i> by <a href="https://zairza.in" alt="zairza" title="ZAIRZA" target="_blank"> ZAIRZA </a> <br/>COLLEGE OF ENGINEERING AND TECHNOLOGY<br/>BHUBANESWAR</p>
-                    
+                        <p>Made with
+                            <i class="icon-heart"></i> by
+                            <a href="https://zairza.in" alt="zairza" title="ZAIRZA" target="_blank"> ZAIRZA </a>
+                            <br/>COLLEGE OF ENGINEERING AND TECHNOLOGY
+                            <br/>BHUBANESWAR</p>
+
                     </div>
-                    
+
                 </div>
                 <!-- row end -->
             </div>
